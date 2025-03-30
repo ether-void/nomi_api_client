@@ -1,7 +1,13 @@
 [package]
-name = "nomi_ai_client"
+name = "nomi_api_client"
+authors = ["ether-void"]
 version = "0.1.0"
 edition = "2021"
+description = "Unofficial Nomi Api client"
+exclude = ["target", "Cargo.lock"]
+documentation = "https://docs.rs/nomi_api_client"
+repository = "https://github.com/ether-void/nomi_api_client"
+license = "MIT"
 
 [dependencies]
 reqwest = { version = "0.12.15", features = ["json"] }

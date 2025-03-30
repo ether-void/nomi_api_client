@@ -4,7 +4,7 @@
 //!
 //! ## Usage
 //! ```no_run
-//! use nomi_ai_client::client::NomiClient;
+//! use nomi_api_client::client::NomiClient;
 //! use tokio;
 //!
 //! #[tokio::main]

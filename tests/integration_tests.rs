@@ -1,4 +1,4 @@
-use nomi_ai_client::{client::NomiClient, errors::NomiError};
+use nomi_api_client::{client::NomiClient, errors::NomiError};
 use std::env;
 
 /// Ensure an API key is set before running tests.
